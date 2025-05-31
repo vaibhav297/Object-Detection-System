@@ -1,70 +1,94 @@
 
-# Object Detection System
+<div align="center">
 
-An object detection model developed using TensorFlow to identify and classify three household items. The system includes a custom dataset of over 300 images, real-time recognition capabilities on mobile devices, and a user-friendly interface for labeling detected objects.
+# 🧠 Object Detection System
 
-## Features
+An object detection model trained using TensorFlow to recognize and classify three common household items in real-time on mobile devices.
 
-- Custom object detection model trained on a dataset of 300+ images.
-- Real-time object recognition on mobile devices.
-- User-friendly interface for labeling detected objects.
-- Developed using TensorFlow.
+![Object Detection Banner](https://img.shields.io/badge/TensorFlow-Model-orange?style=for-the-badge&logo=tensorflow)
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen?style=for-the-badge&logo=github)
 
-## Getting Started
+</div>
 
-### Prerequisites
+---
+
+## ✨ Features
+
+- 📸 Custom object detection model with over 300 training images
+- 📱 Real-time detection on mobile devices
+- 🧩 Simple and intuitive object labeling interface
+- ⚙️ Built with TensorFlow, OpenCV, and Python
+
+---
+
+## 🚀 Getting Started
+
+### 📦 Prerequisites
+
+Ensure you have the following installed:
 
 - Python 3.x
 - TensorFlow
-- Jupyter Notebook
 - OpenCV
 - NumPy
 - Matplotlib
+- Jupyter Notebook
 
-### Installation
+### 🛠️ Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/vaibhav297/Object-Detection-System.git
-   cd Object-Detection-System
-   ```
+```bash
+# Clone the repository
+git clone https://github.com/vaibhav297/Object-Detection-System.git
+cd Object-Detection-System
 
-2. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+# Install dependencies
+pip install -r requirements.txt
 
-3. Unzip the images dataset:
-   ```bash
-   unzip images.zip
-   ```
+# Unzip the image dataset
+unzip images.zip
+```
 
-## Usage
+---
 
-1. Open the Jupyter Notebook:
-   ```bash
-   jupyter notebook Object_Detection_System_VaibhavSahastrabuddhe.ipynb
-   ```
+## 🧪 Usage
 
-2. Follow the steps in the notebook to train and evaluate the object detection model.
+Launch the Jupyter notebook and follow the instructions:
 
-## Dataset
+```bash
+jupyter notebook Object_Detection_System_VaibhavSahastrabuddhe.ipynb
+```
 
-The dataset consists of over 300 images of three different household items, captured in various scenarios to ensure diversity. The images are stored in the `images.zip` file.
+This will guide you through training, evaluating, and using the object detection model.
 
-## Model Deployment
+---
 
-The trained model can be deployed on mobile devices for real-time object recognition. The system includes a user-friendly interface for labeling detected objects.
+## 🗂️ Dataset
 
-## Contributing
+The dataset comprises 300+ images representing three household items captured in varied conditions to promote robust model training.
 
-Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
+---
 
-## License
+## 📱 Deployment
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Once trained, the model can be exported and deployed on mobile devices for live object recognition. The UI allows easy labeling of detected items.
 
-## Acknowledgments
+---
 
-- Developed by Vaibhav Sahastrabuddhe.
-- Utilizes TensorFlow for model development.
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+## 🙏 Acknowledgements
+
+- 👨‍💻 Developed by Vaibhav Sahastrabuddhe
+- 🧠 Powered by TensorFlow and OpenCV
+
