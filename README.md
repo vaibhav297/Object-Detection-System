@@ -75,18 +75,6 @@ Once trained, the model can be exported and deployed on mobile devices for live 
 
 ---
 
-## 🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
 ## 🙏 Acknowledgements
 
 - 👨‍💻 Developed by Vaibhav Sahastrabuddhe
